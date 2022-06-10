@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <link href="index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+   <div class="container right-panel-active">
+      <!-- Sign Up -->
+      <div class="container__form container--signup">
+         <form action="#" class="form" id="form1">
+            <h2 class="form__title">Your Info</h2>
+            <input type="text" placeholder="Full Name" class="input" id="name" />
+            <input type="text" placeholder="Father Name" class="input"  id="fName"/>
+            <input type="number" placeholder="Phone Number" class="input" id="number"/>
+   
+            <input type="text" placeholder="Date of Birth" class="input" id="dob"/>
+            <button class="btn" onClick="sub()">Submit</button>
+         </form>
+      </div>
+   
+   
+      <!-- Overlay -->
+      <div class="container__overlay">
+         <div class="overlay">
+            <span id="name1"></span>
+            <span id="fName1"></span>
+            <span id="number1"></span>
+            <span id="dob1"></span>
+         </div>
+      </div>
+   </div>
+
+
+    
+      <script src="app.js"> </script>
+</body>
+
+</html>
